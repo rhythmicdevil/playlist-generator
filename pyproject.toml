@@ -1,0 +1,12 @@
+[project]
+name = "playlist-generator"
+version = "0.1.0"
+description = "Media Export Builder - generates exports from a media library"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+media-export-builder = "media_export_builder.cli:main"

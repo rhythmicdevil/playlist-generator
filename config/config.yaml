@@ -1,0 +1,12 @@
+source_directories:
+  - /media/library/Action
+  - /media/library/Comedy
+
+target_root_directory: /media/exports
+
+files_per_export: 10
+
+watched_file_path: /media/watched.txt
+
+supported_extensions:
+  - .mp4
